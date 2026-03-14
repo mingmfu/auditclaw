@@ -402,7 +402,7 @@ body {
     <!-- Login Info Alert -->
     <div style="max-width: 1400px; margin: 1.5rem auto 0; padding: 0 1.5rem;">
         <div style="background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 0.5rem; padding: 1rem;">
-            <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem;">
+            <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <circle cx="12" cy="12" r="10"/>
                     <line x1="12" y1="16" x2="12" y2="12"/>
@@ -411,27 +411,10 @@ body {
                 <div style="flex: 1;">
                     <div style="font-weight: 600; color: #60a5fa; margin-bottom: 0.25rem;">💡 查看招标原文需要登录</div>
                     <div style="font-size: 0.875rem; color: #94a3b8;">
-                        账号：<span style="color: #fbbf24; font-weight: 600;">13167733815</span> | 
-                        密码：<span style="color: #fbbf24; font-weight: 600;">dx13167733815</span>
-                        <span style="margin-left: 1rem; color: #64748b;">（基本信息已展示在下方，点击"查看详情"即可查看）</span>
+                        请点击"打开登录页"按钮访问招标网站，使用您的账号登录后查看详情
+                        <span style="margin-left: 1rem; color: #64748b;">（基本信息已展示在下方）</span>
                     </div>
                 </div>
-            </div>
-            <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; padding-top: 0.75rem; border-top: 1px solid rgba(59, 130, 246, 0.2);">
-                <button onclick="copyToClipboard('13167733815')" class="copy-btn" style="background: rgba(251, 191, 36, 0.2); color: #fbbf24; border: 1px solid rgba(251, 191, 36, 0.3); padding: 0.5rem 1rem; border-radius: 0.375rem; font-size: 0.875rem; cursor: pointer; display: flex; align-items: center; gap: 0.5rem;">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
-                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
-                    </svg>
-                    复制账号
-                </button>
-                <button onclick="copyToClipboard('dx13167733815')" class="copy-btn" style="background: rgba(251, 191, 36, 0.2); color: #fbbf24; border: 1px solid rgba(251, 191, 36, 0.3); padding: 0.5rem 1rem; border-radius: 0.375rem; font-size: 0.875rem; cursor: pointer; display: flex; align-items: center; gap: 0.5rem;">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
-                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
-                    </svg>
-                    复制密码
-                </button>
                 <button onclick="openLoginPage()" class="copy-btn" style="background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); padding: 0.5rem 1rem; border-radius: 0.375rem; font-size: 0.875rem; cursor: pointer; display: flex; align-items: center; gap: 0.5rem;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/>
@@ -1579,36 +1562,13 @@ body {
         }
         
         function openLoginPage() {
-            const loginWindow = window.open('https://www.china-hxzb.com/', '_blank');
-            
-            // 尝试在新窗口中自动填充（可能受浏览器安全限制）
-            setTimeout(() => {
-                if (loginWindow && !loginWindow.closed) {
-                    try {
-                        const doc = loginWindow.document;
-                        const usernameInput = doc.querySelector('input[name="username"], input[type="text"], #username');
-                        const passwordInput = doc.querySelector('input[name="password"], input[type="password"], #password');
-                        
-                        if (usernameInput) {
-                            usernameInput.value = '13167733815';
-                            usernameInput.dispatchEvent(new Event('input', { bubbles: true }));
-                        }
-                        if (passwordInput) {
-                            passwordInput.value = 'dx13167733815';
-                            passwordInput.dispatchEvent(new Event('input', { bubbles: true }));
-                        }
-                    } catch (e) {
-                        console.log('自动填充失败（跨域限制）:', e);
-                    }
-                }
-            }, 2000);
-            
-            showToast('已打开登录页，请手动输入账号密码');
+            window.open('https://www.china-hxzb.com/', '_blank');
+            showToast('已打开登录页，请使用您的账号登录');
         }
         
         function showLoginHelp(event) {
             // 显示提示
-            const confirmed = confirm('即将跳转到招标网站查看原文\n\n请使用以下账号登录：\n账号：13167733815\n密码：dx13167733815\n\n是否继续？');
+            const confirmed = confirm('即将跳转到招标网站查看原文\n\n请使用您的账号登录后查看详情\n\n是否继续？');
             if (!confirmed) {
                 event.preventDefault();
             }
