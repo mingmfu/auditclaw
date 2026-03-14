@@ -152,10 +152,19 @@ class ProfessionalTenderCollector:
     """专业招标信息采集器"""
     
     def __init__(self):
+        # 从环境变量读取敏感信息
+        self.username = os.getenv('HX_USERNAME', '')
+        self.password = os.getenv('HX_PASSWORD', '')
+        
+        if not self.username or not self.password:
+            logger.warning("⚠️ 未设置环境变量 HX_USERNAME 和 HX_PASSWORD")
+            logger.info("请设置: export HX_USERNAME='your_username'")
+            logger.info("       export HX_PASSWORD='your_password'")
+        
         self.config = {
             'url': 'https://www.china-hxzb.com/',
-            'username': '13167733815',
-            'password': 'dx13167733815',
+            'username': self.username,
+            'password': self.password,
             'target_region': '安徽',
             'keywords': [
                 '审计', '会计师事务所', '年报审计', '年度审计',

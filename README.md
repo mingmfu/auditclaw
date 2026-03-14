@@ -15,9 +15,26 @@
 
 - **目标网站**：合信招标网 (https://www.china-hxzb.com/)
 - **采集范围**：安徽地区审计类招标项目
-- **登录账号**：13167733815
-- **登录密码**：dx13167733815
+- **认证方式**：通过环境变量设置登录账号密码
 - **筛选条件**：地区=安徽，关键词=审计/会计师事务所/年报审计/专项审计
+
+### 环境变量配置
+
+在使用脚本前，请设置以下环境变量：
+
+```bash
+export HX_USERNAME="your_username"
+export HX_PASSWORD="your_password"
+```
+
+或在项目根目录创建 `.env` 文件（参考 `.env.example`）：
+
+```bash
+cp .env.example .env
+# 编辑 .env 文件，填写真实账号密码
+```
+
+**注意**：`.env` 文件已被添加到 `.gitignore`，不会被提交到Git仓库。
 
 ## Task
 

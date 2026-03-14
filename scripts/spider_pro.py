@@ -22,10 +22,21 @@ from playwright.async_api import async_playwright, Page, Browser, BrowserContext
 @dataclass
 class Config:
     """爬虫配置"""
-    # 登录信息
+    # 登录信息 - 从环境变量读取，不要在代码中硬编码
     LOGIN_URL: str = "https://www.china-hxzb.com/"  # 首页
-    USERNAME: str = "13167733815"
-    PASSWORD: str = "dx13167733815"
+    USERNAME: str = ""  # 从环境变量 HX_USERNAME 读取
+    PASSWORD: str = ""  # 从环境变量 HX_PASSWORD 读取
+    
+    def __post_init__(self):
+        """从环境变量读取账号密码"""
+        import os
+        self.USERNAME = os.getenv('HX_USERNAME', '')
+        self.PASSWORD = os.getenv('HX_PASSWORD', '')
+        
+        if not self.USERNAME or not self.PASSWORD:
+            logging.warning("⚠️ 未设置环境变量 HX_USERNAME 和 HX_PASSWORD")
+            logging.info("请设置: export HX_USERNAME='your_username'")
+            logging.info("       export HX_PASSWORD='your_password'")
     
     # 搜索配置 - 扩展关键词列表，确保搜索完所有审计相关项目
     SEARCH_KEYWORDS: List[str] = None
