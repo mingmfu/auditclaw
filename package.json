@@ -1,0 +1,13 @@
+{
+  "name": "tender-dashboard",
+  "version": "2.0.0",
+  "description": "安徽审计招标信息仪表板 - 专业商务版",
+  "homepage": "https://brightfu.github.io/tender-dashboard",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "npx serve .",
+    "deploy": "npm run build && git add . && git commit -m 'chore: 更新仪表板' && git push origin main"
+  },
+  "keywords": ["招标", "审计", "安徽", "dashboard"],
+  "license": "MIT"
+}
