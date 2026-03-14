@@ -1,0 +1,145 @@
+2026-03-14 17:07:34,591 - AuditClaw - INFO - 🚀 AuditClaw 专业招标信息采集系统初始化完成
+2026-03-14 17:07:34,592 - AuditClaw - INFO - 
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+2026-03-14 17:07:34,592 - AuditClaw - INFO - AuditClaw 专业招标信息采集系统启动
+2026-03-14 17:07:34,592 - AuditClaw - INFO - 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+2026-03-14 17:07:34,592 - AuditClaw - INFO - 正在启动浏览器...
+2026-03-14 17:07:36,358 - AuditClaw - INFO - ✅ 浏览器启动成功
+2026-03-14 17:07:36,358 - AuditClaw - INFO - 
+============================================================
+2026-03-14 17:07:36,358 - AuditClaw - INFO - Step 1: 访问与登录
+2026-03-14 17:07:36,358 - AuditClaw - INFO - ============================================================
+2026-03-14 17:07:36,358 - AuditClaw - INFO - 🌐 访问网站: https://www.china-hxzb.com/
+2026-03-14 17:07:40,199 - AuditClaw - INFO - 📝 填写账号: 13167733815
+2026-03-14 17:07:40,242 - AuditClaw - INFO - 🔐 填写密码
+2026-03-14 17:07:40,255 - AuditClaw - INFO - 🖱️ 点击登录按钮
+2026-03-14 17:07:43,923 - AuditClaw - WARNING - ⚠️ 登录表单仍存在，登录可能未成功
+2026-03-14 17:07:43,923 - AuditClaw - ERROR - ❌ 登录失败
+2026-03-14 17:07:43,923 - AuditClaw - ERROR - 登录失败，程序退出
+2026-03-14 17:07:43,991 - AuditClaw - INFO - 🛑 浏览器已关闭
+2026-03-14 17:08:37,731 - AuditClaw - INFO - 🚀 AuditClaw 专业招标信息采集系统初始化完成
+2026-03-14 17:08:37,731 - AuditClaw - INFO - 
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+2026-03-14 17:08:37,731 - AuditClaw - INFO - AuditClaw 专业招标信息采集系统启动
+2026-03-14 17:08:37,731 - AuditClaw - INFO - 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+2026-03-14 17:08:37,731 - AuditClaw - INFO - 正在启动浏览器...
+2026-03-14 17:08:39,020 - AuditClaw - INFO - ✅ 浏览器启动成功
+2026-03-14 17:08:39,021 - AuditClaw - INFO - 
+============================================================
+2026-03-14 17:08:39,021 - AuditClaw - INFO - Step 1: 访问与登录
+2026-03-14 17:08:39,021 - AuditClaw - INFO - ============================================================
+2026-03-14 17:08:39,021 - AuditClaw - INFO - 🌐 访问网站: https://www.china-hxzb.com/
+2026-03-14 17:08:42,919 - AuditClaw - INFO - 📝 填写账号: 13167733815
+2026-03-14 17:08:42,954 - AuditClaw - INFO - 🔐 填写密码
+2026-03-14 17:08:42,964 - AuditClaw - INFO - 🖱️ 点击登录按钮
+2026-03-14 17:08:49,697 - AuditClaw - INFO - 当前URL: https://www.china-hxzb.com/
+2026-03-14 17:08:49,727 - AuditClaw - WARNING - ⚠️ 登录表单仍存在
+2026-03-14 17:08:49,727 - AuditClaw - WARNING - ⚠️ 登录验证未通过，但尝试继续采集...
+2026-03-14 17:08:49,727 - AuditClaw - INFO - 
+============================================================
+2026-03-14 17:08:49,727 - AuditClaw - INFO - Step 2 & 3: 筛选项目并采集详情
+2026-03-14 17:08:49,727 - AuditClaw - INFO - ============================================================
+2026-03-14 17:08:49,727 - AuditClaw - INFO - 
+[1/28] 关键词: 审计
+2026-03-14 17:08:49,727 - AuditClaw - INFO - 
+🔍 搜索关键词: 审计
+2026-03-14 17:08:56,431 - AuditClaw - INFO -   📄 处理第 1 页...
+2026-03-14 17:09:06,434 - AuditClaw - ERROR - 提取页面列表失败: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("table tr") to be visible
+    25 × locator resolved to 26 elements. Proceeding with the first one: <tr>…</tr>
+
+2026-03-14 17:09:06,434 - AuditClaw - INFO -   第 1 页无数据，结束
+2026-03-14 17:09:06,434 - AuditClaw - INFO - 关键词 '审计' 共找到 0 个安徽项目
+2026-03-14 17:09:06,434 - AuditClaw - INFO - 当前累计: 0 个 unique 项目
+2026-03-14 17:09:08,435 - AuditClaw - INFO - 
+[2/28] 关键词: 会计师事务所
+2026-03-14 17:09:08,435 - AuditClaw - INFO - 
+🔍 搜索关键词: 会计师事务所
+2026-03-14 17:09:15,063 - AuditClaw - INFO -   📄 处理第 1 页...
+2026-03-14 17:09:25,068 - AuditClaw - ERROR - 提取页面列表失败: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("table tr") to be visible
+    25 × locator resolved to 26 elements. Proceeding with the first one: <tr>…</tr>
+
+2026-03-14 17:09:25,069 - AuditClaw - INFO -   第 1 页无数据，结束
+2026-03-14 17:09:25,069 - AuditClaw - INFO - 关键词 '会计师事务所' 共找到 0 个安徽项目
+2026-03-14 17:09:25,069 - AuditClaw - INFO - 当前累计: 0 个 unique 项目
+2026-03-14 17:09:27,070 - AuditClaw - INFO - 
+[3/28] 关键词: 年报审计
+2026-03-14 17:09:27,071 - AuditClaw - INFO - 
+🔍 搜索关键词: 年报审计
+2026-03-14 17:09:33,610 - AuditClaw - INFO -   📄 处理第 1 页...
+2026-03-14 17:09:43,615 - AuditClaw - ERROR - 提取页面列表失败: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("table tr") to be visible
+    25 × locator resolved to 26 elements. Proceeding with the first one: <tr>…</tr>
+
+2026-03-14 17:09:43,615 - AuditClaw - INFO -   第 1 页无数据，结束
+2026-03-14 17:09:43,615 - AuditClaw - INFO - 关键词 '年报审计' 共找到 0 个安徽项目
+2026-03-14 17:09:43,616 - AuditClaw - INFO - 当前累计: 0 个 unique 项目
+2026-03-14 17:09:45,617 - AuditClaw - INFO - 
+[4/28] 关键词: 年度审计
+2026-03-14 17:09:45,617 - AuditClaw - INFO - 
+🔍 搜索关键词: 年度审计
+2026-03-14 17:09:52,851 - AuditClaw - INFO -   📄 处理第 1 页...
+2026-03-14 17:10:02,857 - AuditClaw - ERROR - 提取页面列表失败: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("table tr") to be visible
+    25 × locator resolved to 26 elements. Proceeding with the first one: <tr>…</tr>
+
+2026-03-14 17:10:02,857 - AuditClaw - INFO -   第 1 页无数据，结束
+2026-03-14 17:10:02,857 - AuditClaw - INFO - 关键词 '年度审计' 共找到 0 个安徽项目
+2026-03-14 17:10:02,857 - AuditClaw - INFO - 当前累计: 0 个 unique 项目
+2026-03-14 17:10:04,859 - AuditClaw - INFO - 
+[5/28] 关键词: 年度财务报表审计
+2026-03-14 17:10:04,859 - AuditClaw - INFO - 
+🔍 搜索关键词: 年度财务报表审计
+2026-03-14 17:10:11,484 - AuditClaw - INFO -   📄 处理第 1 页...
+2026-03-14 17:10:21,488 - AuditClaw - ERROR - 提取页面列表失败: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("table tr") to be visible
+    25 × locator resolved to 26 elements. Proceeding with the first one: <tr>…</tr>
+
+2026-03-14 17:10:21,488 - AuditClaw - INFO -   第 1 页无数据，结束
+2026-03-14 17:10:21,488 - AuditClaw - INFO - 关键词 '年度财务报表审计' 共找到 0 个安徽项目
+2026-03-14 17:10:21,488 - AuditClaw - INFO - 当前累计: 0 个 unique 项目
+2026-03-14 17:10:23,489 - AuditClaw - INFO - 
+[6/28] 关键词: 专项审计
+2026-03-14 17:10:23,490 - AuditClaw - INFO - 
+🔍 搜索关键词: 专项审计
+2026-03-14 17:10:30,439 - AuditClaw - INFO -   📄 处理第 1 页...
+2026-03-14 17:10:40,444 - AuditClaw - ERROR - 提取页面列表失败: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("table tr") to be visible
+    25 × locator resolved to 26 elements. Proceeding with the first one: <tr>…</tr>
+
+2026-03-14 17:10:40,445 - AuditClaw - INFO -   第 1 页无数据，结束
+2026-03-14 17:10:40,445 - AuditClaw - INFO - 关键词 '专项审计' 共找到 0 个安徽项目
+2026-03-14 17:10:40,445 - AuditClaw - INFO - 当前累计: 0 个 unique 项目
+2026-03-14 17:10:42,446 - AuditClaw - INFO - 
+[7/28] 关键词: 离任审计
+2026-03-14 17:10:42,446 - AuditClaw - INFO - 
+🔍 搜索关键词: 离任审计
+2026-03-14 17:10:49,056 - AuditClaw - INFO -   📄 处理第 1 页...
+2026-03-14 17:10:59,061 - AuditClaw - ERROR - 提取页面列表失败: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("table tr") to be visible
+    25 × locator resolved to 26 elements. Proceeding with the first one: <tr>…</tr>
+
+2026-03-14 17:10:59,061 - AuditClaw - INFO -   第 1 页无数据，结束
+2026-03-14 17:10:59,062 - AuditClaw - INFO - 关键词 '离任审计' 共找到 0 个安徽项目
+2026-03-14 17:10:59,062 - AuditClaw - INFO - 当前累计: 0 个 unique 项目
+2026-03-14 17:11:01,063 - AuditClaw - INFO - 
+[8/28] 关键词: 经济责任审计
+2026-03-14 17:11:01,063 - AuditClaw - INFO - 
+🔍 搜索关键词: 经济责任审计
+2026-03-14 17:11:08,214 - AuditClaw - INFO -   📄 处理第 1 页...
+2026-03-14 17:11:18,219 - AuditClaw - ERROR - 提取页面列表失败: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("table tr") to be visible
+    25 × locator resolved to 26 elements. Proceeding with the first one: <tr>…</tr>
+
+2026-03-14 17:11:18,219 - AuditClaw - INFO -   第 1 页无数据，结束
+2026-03-14 17:11:18,220 - AuditClaw - INFO - 关键词 '经济责任审计' 共找到 0 个安徽项目
+2026-03-14 17:11:18,220 - AuditClaw - INFO - 当前累计: 0 个 unique 项目
